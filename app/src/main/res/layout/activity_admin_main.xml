@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_recognition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".AdminMain">
+    <EditText
+     android:hint="Enter Group Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_group"
+        />
+    <Button
+        android:text="createGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_createGroup"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Users to your campaign"
+        />
+    <EditText
+      android:hint="Name of user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_name"
+        />
+    <EditText
+       android:hint="user name for user (User Name must be same as Name)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_userName"
+        />
+
+    />
+    <EditText
+        android:hint="Mobile no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_textNo"
+        android:inputType="number"
+        />
+
+    <!--<EditText-->
+        <!--android:text="user name for user"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/edit_text_allUsers"-->
+        <!--/>-->
+    <Button
+        android:text="Create USer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_createUser"
+        />
+    <Button
+        android:text="List All users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_getUsers"
+        />
+
+    <!--<Button-->
+        <!--android:text="Start Tracking"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button_startTracking"-->
+        <!--android:onClick="startTracking"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:text="Stop Tracking"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button_stopTracking"-->
+        <!--android:onClick="stopTracking"-->
+        <!--/>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSetTask"
+        android:text="set Tasks"
+        />
+
+</LinearLayout>

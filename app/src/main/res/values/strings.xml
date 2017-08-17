@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tutor Tracker</string>
+    <string name="login_activity_title">Login</string>
+
+    <string name="assign_action_btn">Assign an Action</string>
+    <string name="complete_action_btn">Complete Action</string>
+    <string name="track_user_on_map_btn">Track User\'s actions on Map</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Login Activity strings -->
+    <string name="login_button_text">Login</string>
+    <string name="login_screen_header">Enter your username and password \nto login.</string>
+    <string name="login_name_hint">Your Name</string>
+    <string name="login_phone_number_hint">Your Phone Number</string>
+
+    <string name="login_username_empty_error">Username can\'t be empty. Please try again</string>
+    <string name="login_username_invalid_error">Username is invalid. Please try again</string>
+    <string name="login_password_empty_error">Password can\'t be empty. Please try again</string>
+    <string name="login_password_invalid_error">Password is invalid. Please try again</string>
+
+    <string name="login_success_msg">User Logged In successful</string>
+    <string name="login_error_msg">User Login failed.</string>
+    <string name="login_shift_start_error_msg">Error while login. </string>
+
+    <!-- Main Activity Strings -->
+    <string name="main_menu_logout_title">Logout</string>
+    <string name="main_logout_error_active_trip_msg">Error while logging out. Please complete active trip/shift first.</string>
+    <string name="main_logout_success_msg">Logout successful</string>
+    <string name="main_logout_error_shift_end_failed_msg">Error while logging out. </string>
+
+    <string name="main_no_active_trip_msg">No active trip currently.</string>
+
+    <!-- Location Permission denied messages -->
+    <string name="enable_location_settings">Enable Location settings in HIGH_ACCURACY mode to proceed</string>
+    <string name="invalid_current_location">Unable to get location. Please check Location settings</string>
+    <string name="permission_declined_default_msg">Permission was denied</string>
+    <string name="location_permission_rationale_msg">Allow %1$s to access this device’s location</string>
+    <string name="location_permission_never_allow">Allow %1$s to access this device’s location.\n\nGo to Settings, tap on Permissions, and turn on Location.</string>
+
+    <!-- User Map Screen Strings-->
+    <string name="track_user_on_map_dialog_title">User is not active currently. Would you still like to proceed to User Map Screen?</string>
+    <string name="user_map_screen_title">Track User on Map</string>
+    <string name="title_activity_web_view">WebView</string>
+</resources>

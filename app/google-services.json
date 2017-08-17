@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517060350782",
+    "firebase_url": "https://handy-operation-138523.firebaseio.com",
+    "project_id": "handy-operation-138523",
+    "storage_bucket": "handy-operation-138523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517060350782:android:4853b3679748d556",
+        "android_client_info": {
+          "package_name": "com.hypertrack.example_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517060350782-8ufv8mjrgi66113jo264ijp5odporusj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hypertrack.example_android",
+            "certificate_hash": "596f5c4ab51e488eb890d79b2b92edf81a1c7a90"
+          }
+        },
+        {
+          "client_id": "517060350782-le5fsg58gp700eco7g8klqhq5mat7m8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAga_pH3R8FUlu_4PwcE3n08ukLksQQ9Tg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517060350782-le5fsg58gp700eco7g8klqhq5mat7m8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

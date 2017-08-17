@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hypertrack.example_android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- Camera -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".ExampleAppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".UserFirstTime"
+            android:allowTaskReparenting="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent">
+
+            <!-- android:launchMode="singleTop" -->
+            <!-- Intent Filter to make this Screen as the launcher screen -->
+            <!-- <intent-filter> -->
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserMapActivity"
+            android:screenOrientation="portrait" />
+
+        <!--
+         Setup a Google Maps API key. More info at https://developers.google.com/maps/documentation/android-api/start
+         and the steps to get an API key are at https://developers.google.com/maps/documentation/android-api/start#step_4_get_a_google_maps_api_key
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCQzmttgifd9BqtcpqGnNYKfqZu5PZt3SE" />
+
+        <activity android:name=".Tasks" />
+        <activity android:name=".AddTask" />
+        <activity android:name=".OptionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminMain" />
+        <activity android:name=".UserMain" />
+        <activity android:name=".User.CompleteTask" />
+        <activity android:name=".AllUsers" />
+        <activity
+            android:name=".WebView"
+            android:label="@string/title_activity_web_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WEbView2"></activity>
+        <activity android:name=".CaptureCameraImage" />
+        <activity android:name=".CameraView" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

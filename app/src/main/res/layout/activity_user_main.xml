@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hypertrack.example_android.UserMain">
+
+    <Button
+        android:id="@+id/button_startTracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startTracking"
+        android:text="Start Tracking" />
+
+    <Button
+        android:id="@+id/button_stopTracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopTracking"
+        android:text="Stop Tracking" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/image_up"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="click"-->
+        <!--android:onClick="tryIt"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/showTask"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="showTasks"-->
+        <!--android:text="Show Tasks"-->
+        <!--android:visibility="gone" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/taskLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+       <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="These are all your tasks" />-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/listView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--tools:listheader="All Tasks to be done" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_completeTasks"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="completeTasks"-->
+        <!--android:visibility="gone"-->
+        <!--android:text="Complete Tasks"-->
+
+        <!--/>-->
+
+</LinearLayout>
